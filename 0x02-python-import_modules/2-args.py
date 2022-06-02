@@ -6,9 +6,12 @@ if __name__ == "__main__":
 
     if lenght < 2:
         print("0 argumenst.")
-        sys.exit()
 
-    print("{} arguments:".format(lenght - 1))
+    elif lenght == 2:
+        print("{} argument:".format(lenght - 1))
 
-    for i in range(1, lenght):
-        print("{}: {}".format(i, sys.argv[i]))
+    else:
+        print("{} arguments:".format(lenght - 1))
+
+        for i in range(1, lenght):
+            print("{}: {}".format(i, sys.argv[i]))
