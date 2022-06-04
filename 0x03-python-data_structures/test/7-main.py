@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+import sys
+sys.path.insert(0, '/alx/alx-higher_level_programming/0x03-python-data_structures')
+
+add_tuple = __import__('7-add_tuple').add_tuple
+
+tuple_a = (1, 89)
+tuple_b = (88, 11)
+new_tuple = add_tuple(tuple_a, tuple_b)
+print(new_tuple)
+
+print(add_tuple(tuple_a, (1, )))
+print(add_tuple(tuple_a, ()))
