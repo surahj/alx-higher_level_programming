@@ -40,7 +40,7 @@ engineering program that prepares students for careers in the tech industry
 using project-based peer learning. For more information, visit
 [this link](https://www.alxafrica.com/).
 
-<p align="center">
+<p align="center" style="background: #04203A;">
   <img src="https://www.alxafrica.com/wp-content/uploads/2022/01/header-logo.png"
        alt="ALX logo"
   >
